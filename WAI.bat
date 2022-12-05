@@ -31,7 +31,7 @@ goto begin
 ::This section is to configured the options
 ::------------------------------
 :op1
-call "c:\Users\%Username%\Desktop\WAI\OfficeSetup.exe"
+call "c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\OfficeSetup.exe"
 ECHO.
 echo Please Wait...
 timeout /t 3 /nobreak > nul
