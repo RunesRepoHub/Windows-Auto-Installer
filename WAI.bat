@@ -56,7 +56,7 @@ ECHO.
 pause
 
 RD /S /Q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-Github\"
-del /f /q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-Github\"
+rmdir /s /q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-Github\"
 goto exit
 ::------------------------------
 
