@@ -23,4 +23,4 @@ echo Please Wait...
 pause
 timeout /t 3 /nobreak > nul
 
-RD /S /Q "c:\Users\%Username%\Downloads\Windows-Auto-Installer-main.zip\"
+DEl /S /Q "c:\Users\%Username%\Downloads\Windows-Auto-Installer-main.zip\"
