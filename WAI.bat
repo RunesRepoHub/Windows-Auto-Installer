@@ -66,7 +66,7 @@ goto exit
 ::------------------------------
 :op3
 
-rundll32 url.dll,FileProtocolHandler https://www.rp-helpdesk.com
+rundll32 url.dll,FileProtocolHandler https://github.com/rune004/Windows-Auto-Installer
 
 goto begin
 
