@@ -22,5 +22,5 @@ if exist %vbs% del /f /q %vbs%
 echo Please Wait...
 timeout /t 3 /nobreak > nul
 
-del /f /q "c:/Users/%Username%/Downloads/Windows-Auto-Installer-main.zip"
+del /f /q "c:\Users\%Username%\Downloads\Windows-Auto-Installer-main.zip"
 pause
