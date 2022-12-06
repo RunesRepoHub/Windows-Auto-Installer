@@ -7,22 +7,22 @@
 * You will have to rename the files if you want to download newer versions.
 
 ## Use
-Download and unzip.
+1. Download and unzip.
 
-Move files to USB drive 
+2. Move files to USB drive 
 
-Move exe's to the USB folder
+3. Move exe's to the USB folder
 
-Unplug the USB.
+4. Unplug the USB.
 
 --------------------------------------
 
-Plug it into the Client 
+5. Plug it into the Client 
 
-Dubble click on the run .bat file
+6. Dubble click on the run .bat file
 
-Select the option you want:
+7. Select the option you want:
 
-1. Run the installer 
-2. Exites installer 
-3. Get help 
+* Run the installer 
+* Exites installer 
+* Get help 
