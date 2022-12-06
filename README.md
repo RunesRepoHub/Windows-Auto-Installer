@@ -8,12 +8,19 @@
 
 ## Use
 Download and unzip.
+
 Move files to USB drive 
+
 Move exe's to the USB folder
+
 Unplug the USB.
 
+--------------------------------------
+
 Plug it into the Client 
+
 Dubble click on the run .bat file
+
 Select the option you want:
 
 1. Run the installer 
