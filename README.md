@@ -18,7 +18,7 @@
 This is a "cell" or in other words this is the "variables" for one pices of software.
 
 ````
-call "c:\Users\%Username%\Desktop\Windows-Auto-Installer\OfficeSetup.exe"
+call "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-Github\OfficeSetup.exe"
 ECHO.
 echo Please Wait...
 timeout /t 3 /nobreak > nul
@@ -26,7 +26,7 @@ ECHO.
 pause
 ````
 
-All you need to change is the `call "c:\Users\%Username%\Desktop\Windows-Auto-Installer\Exe\your-software.exe"`
+All you need to change is the `call "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-Github\Exe\your-software.exe"`
 
 You should just put your new exe file into the "Exe" folder and change the Exe file name in the end of the string.
 

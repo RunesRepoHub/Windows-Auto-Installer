@@ -32,7 +32,7 @@ goto begin
 ::This section is to configured the options
 ::------------------------------
 :op1
-call "c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\Exe\OfficeSetup.exe"
+call "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-Github\Exe\OfficeSetup.exe"
 ECHO.
 echo Please Wait...
 timeout /t 3 /nobreak > nul
@@ -40,7 +40,7 @@ ECHO.
 pause
 
 
-call "c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\Exe\WordMat.exe"
+call "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-Github\Exe\WordMat.exe"
 ECHO.
 echo Please Wait...
 timeout /t 3 /nobreak > nul
@@ -48,14 +48,14 @@ ECHO.
 pause
 
 
-call "c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\Exe\ChromeSetup.exe"
+call "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-Github\Exe\ChromeSetup.exe"
 ECHO.
 echo Please Wait...
 timeout /t 3 /nobreak > nul
 ECHO.
 pause
 
-@RD /S /Q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\"
+@RD /S /Q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-Github\"
 
 goto exit
 ::------------------------------
