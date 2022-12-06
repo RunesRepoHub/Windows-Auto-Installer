@@ -15,12 +15,14 @@ echo ------------------------------------
 echo 1) Run Windows Auto Installer
 echo 2) Exit Window Auto Installer
 echo 3) How does Windows Auto Installer Work?
+echo 4) Report a bug or an error.
 echo ------------------------------------
 set /p op=Type option:
 if "%op%"=="" goto begin
 if "%op%"=="1" goto op1
 if "%op%"=="2" goto op2
 if "%op%"=="3" goto op3
+if "%op%"=="4" goto op4
 ::------------------------------
 ::User input
 echo Please Pick an option:
@@ -72,5 +74,13 @@ rundll32 url.dll,FileProtocolHandler https://github.com/rune004/Windows-Auto-Ins
 goto begin
 
 ::-------------------------------
+
+::-------------------------------
+:op4
+rundll32 url.dll,FileProtocolHandler https://github.com/rune004/Windows-Auto-Installer/issues
+
+goto begin
+::-------------------------------
+
 :exit
 @exit
