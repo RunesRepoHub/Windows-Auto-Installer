@@ -1,25 +1,16 @@
 # Windows-Auto-Installer
- 
-## Requirements 
-
-* You will need a USB drive that has been formatted as "D:" drive.
-* You will have to download the exe files you need to auto install.
-* You will have to rename the files if you want to download newer versions.
 
 ## Use
-1. Download and unzip.
 
-2. Move folder Windows-Auto-Installer to desktop
-
-3. Open folder Windows-Auto-Installer
-
-4. Dubble click on the  WAI.bat file
-
-5. Select the option you want:
-
-* Run the installer 
-* Exites installer 
-* Get help 
+* Download The Latest Release.
+* Open the zip folder when it has downloaded (DO NOT UNZIP IT)
+* Find the "Install-Windows-Auto-Installer.bat" and run it.
+* This will make a folder on the desktop and delete the zip folder.
+* Go to your desktop and find the folder "Windows-Auto-Installer".
+* In this folder you will find a WAI.bat file and a Exe folder.
+    -> You have to manuelly download WordMat and put it into the Exe folder and rename it to "WordMat"
+* When you have done this you can run the WAI.bat
+ 
 
 ## Modify
 
