@@ -27,4 +27,6 @@ curl https://github.com/Eduap-com/WordMat/releases/download/v.1.25/WordMat125-2.
 
 del /f /q "c:\Users\%Username%\Downloads\Windows-Auto-Installer-main.zip"
 del /f /q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\Install-Windows-Auto-Installer.bat"
+del /f /q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\.gitattributes"
+del /f /q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\README.md"
 pause
