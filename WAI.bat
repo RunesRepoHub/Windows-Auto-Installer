@@ -1,13 +1,13 @@
 echo off
 
 ::This is the title of the cmd window, the color and the timestamp.
-prompt $T $B $P$G && title Rune Prodution's WAI Version 1.1.0 && color 2
+prompt $T $B $P$G && title Rune Prodution's WAI Version 1.0 && color 2
 
 :: This is the selecting menu
 :begin
 CLS
 echo ====================================
-echo Rune Prodution's WAI Version 1.1.0
+echo Rune Prodution's WAI Version 1.0
 echo ====================================
 echo Select a task:
 echo ====================================
