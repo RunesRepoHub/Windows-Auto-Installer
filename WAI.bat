@@ -53,10 +53,15 @@ ECHO.
 echo Please Wait...
 timeout /t 3 /nobreak > nul
 ECHO.
+
+taskkill /im explorer.exe
+
 pause
 
+
+
 RD /S /Q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-Github\"
-rmdir /s /q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-Github\"
+rmdir /s /q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-Github"
 goto exit
 ::------------------------------
 
