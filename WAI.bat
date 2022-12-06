@@ -30,7 +30,7 @@ goto begin
 ::This section is to configured the options
 ::------------------------------
 :op1
-call "c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\OfficeSetup.exe"
+call "D:\Windows-Auto-Installer\OfficeSetup.exe"
 ECHO.
 echo Please Wait...
 timeout /t 3 /nobreak > nul
@@ -38,7 +38,7 @@ ECHO.
 pause
 
 
-call "c:\Users\%Username%\Downloads\WordMat.exe"
+call "D:\Windows-Auto-Installer\WordMat.exe"
 ECHO.
 echo Please Wait...
 timeout /t 3 /nobreak > nul
@@ -46,7 +46,7 @@ ECHO.
 pause
 
 
-call "c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\ChromeSetup.exe"
+call "D:\Windows-Auto-Installer\ChromeSetup.exe"
 ECHO.
 echo Please Wait...
 timeout /t 3 /nobreak > nul
