@@ -53,7 +53,6 @@ goto begin
 
 ::------------------------------
 :op3
-curl.exe -o WordMat.exe https://github.com/Eduap-com/WordMat/releases/download/v.1.25/WordMat125-2.exe
 call "c:\Users\%Username%\Downloads\WordMat.exe"
 ECHO.
 echo Please Wait...
