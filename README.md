@@ -8,6 +8,7 @@
 * This will make a folder on the desktop and delete the zip folder.
 * Go to your desktop and find the folder "Windows-Auto-Installer".
 * In this folder you will find a WAI.bat file and a Exe folder.
+    
     -> You have to manuelly download WordMat and put it into the Exe folder and rename it to "WordMat"
 * When you have done this you can run the WAI.bat
  
