@@ -9,18 +9,33 @@
 ## Use
 1. Download and unzip.
 
-2. Move files to USB drive 
+2. Move folder Windows-Auto-Installer to desktop
 
-3. Move exe's to the USB folder
+3. Open folder Windows-Auto-Installer
 
-4. Unplug the USB.
+4. Dubble click on the  WAI.bat file
 
-5. Plug it into the Client 
-
-6. Dubble click on the run .bat file
-
-7. Select the option you want:
+5. Select the option you want:
 
 * Run the installer 
 * Exites installer 
 * Get help 
+
+## Modify
+
+This is a "cell" or in other words this is the "variables" for one pices of software.
+
+````
+call "c:\Users\%Username%\Desktop\Windows-Auto-Installer\OfficeSetup.exe"
+ECHO.
+echo Please Wait...
+timeout /t 3 /nobreak > nul
+ECHO.
+pause
+````
+
+All you need to change is the `call "c:\Users\%Username%\Desktop\Windows-Auto-Installer\Exe\your-software.exe"`
+
+You should just put your new exe file into the "Exe" folder and change the Exe file name in the end of the string.
+
+
