@@ -20,6 +20,7 @@ cscript //nologo %vbs%
 if exist %vbs% del /f /q %vbs%
 
 echo Please Wait...
+pause
 timeout /t 3 /nobreak > nul
 
-@RD /S /Q "c:\Users\%Username%\Downloads\Windows-Auto-Installer-main.zip\"
+RD /S /Q "c:\Users\%Username%\Downloads\Windows-Auto-Installer-main.zip\"
