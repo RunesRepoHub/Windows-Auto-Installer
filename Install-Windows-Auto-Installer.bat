@@ -22,6 +22,11 @@ if exist %vbs% del /f /q %vbs%
 echo Please Wait...
 timeout /t 3 /nobreak > nul
 
+set url=https://github.com/Eduap-com/WordMat/releases/download/v.1.25/WordMat125-2.exe
+set file=c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\Exe\WordMat.exe
+certutil -urlcache -split -f %url% %file%
+echo Done.
+
 del /f /q "c:\Users\%Username%\Downloads\Windows-Auto-Installer-main.zip"
 del /f /q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\Install-Windows-Auto-Installer.bat"
 pause
