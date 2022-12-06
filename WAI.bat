@@ -14,11 +14,13 @@ echo ====================================
 echo ------------------------------------
 echo 1) Run Windows Auto Installer
 echo 2) Exit Window Auto Installer
+echo 3) How does Windows Auto Installer Work?
 echo ------------------------------------
 set /p op=Type option:
 if "%op%"=="" goto begin
 if "%op%"=="1" goto op1
 if "%op%"=="2" goto op2
+if "%op%"=="3" goto op3
 ::------------------------------
 ::User input
 echo Please Pick an option:
@@ -61,5 +63,13 @@ goto exit
 goto exit
 ::------------------------------
 
+::------------------------------
+:op3
+
+rundll32 url.dll,FileProtocolHandler https://www.rp-helpdesk.com
+
+goto begin
+
+::-------------------------------
 :exit
 @exit
