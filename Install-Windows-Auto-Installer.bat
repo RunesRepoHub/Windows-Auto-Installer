@@ -22,7 +22,7 @@ if exist %vbs% del /f /q %vbs%
 echo Please Wait...
 timeout /t 3 /nobreak > nul
 
-CD c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\Exe
+CD c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\Exe\
 curl https://github.com/Eduap-com/WordMat/releases/download/v.1.25/WordMat125-2.exe > WordMat.exe
 
 del /f /q "c:\Users\%Username%\Downloads\Windows-Auto-Installer-main.zip"
