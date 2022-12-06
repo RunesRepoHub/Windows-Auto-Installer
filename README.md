@@ -15,8 +15,6 @@
 
 4. Unplug the USB.
 
---------------------------------------
-
 5. Plug it into the Client 
 
 6. Dubble click on the run .bat file
