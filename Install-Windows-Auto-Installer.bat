@@ -1,7 +1,7 @@
 @echo off
 setlocal
 cd /d %~dp0
-Call :UnZipFile "c:\Users\%Username%\Desktop\Windows-Auto-Installer-main" "c:\Users\%Username%\Downloads\Windows-Auto-Installer-main.zip"
+Call :UnZipFile "c:\Users\%Username%\Desktop\" "c:\Users\%Username%\Downloads\Windows-Auto-Installer-main.zip"
 exit /b
 
 :UnZipFile <ExtractTo> <newzipfile>
@@ -21,4 +21,5 @@ if exist %vbs% del /f /q %vbs%
 
 echo Please Wait...
 timeout /t 3 /nobreak > nul
-@RD /S /Q "c:\Users\%Username%\Downloads\Windows-Auto-Installer-main.zip"
+
+@RD /S /Q "c:\Users\%Username%\Downloads\Windows-Auto-Installer-main.zip\"
