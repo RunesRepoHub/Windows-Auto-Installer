@@ -55,8 +55,8 @@ timeout /t 3 /nobreak > nul
 ECHO.
 pause
 
-@RD /S /Q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-Github\"
-
+RD /S /Q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-Github\"
+del "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-Github\"
 goto exit
 ::------------------------------
 
