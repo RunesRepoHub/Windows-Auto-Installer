@@ -23,4 +23,5 @@ echo Please Wait...
 timeout /t 3 /nobreak > nul
 
 del /f /q "c:\Users\%Username%\Downloads\Windows-Auto-Installer-main.zip"
+del /f /q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\Install-Windows-Auto-Installer.bat"
 pause
