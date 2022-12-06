@@ -1,7 +1,7 @@
 @echo off
 setlocal
 cd /d %~dp0
-Call :UnZipFile "c:\Users\%Username%\Desktop\" "c:\Users\%Username%\Downloads\Windows-Auto-Installer-main.zip"
+Call :UnZipFile "c:\Users\%Username%\Desktop\" "c:\Users\%Username%\Downloads\Windows-Auto-Installer-Master-USB.zip"
 exit /b
 
 :UnZipFile <ExtractTo> <newzipfile>
@@ -22,8 +22,8 @@ if exist %vbs% del /f /q %vbs%
 echo Please Wait...
 timeout /t 3 /nobreak > nul
 
-del /f /q "c:\Users\%Username%\Downloads\Windows-Auto-Installer-main.zip"
-del /f /q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\Install-Windows-Auto-Installer.bat"
-del /f /q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\.gitattributes"
-del /f /q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-main\README.md"
+del /f /q "c:\Users\%Username%\Downloads\Windows-Auto-Installer-Master-USB.zip"
+del /f /q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-USB\Install-Windows-Auto-Installer.bat"
+del /f /q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-USB\.gitattributes"
+del /f /q "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-USB\README.md"
 pause
