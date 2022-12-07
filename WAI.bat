@@ -1,13 +1,13 @@
 echo off
 
 ::This is the title of the cmd window, the color and the timestamp.
-prompt $T $B $P$G && title Rune Prodution's WAI Version 1.0 && color 2
+prompt $T $B $P$G && title Rune Prodution's WAI Version 1.2 && color 2
 
 :: This is the selecting menu
 :begin
 CLS
 echo ====================================
-echo Rune Prodution's WAI Version 1.0
+echo Rune Prodution's WAI Version 1.2
 echo ====================================
 echo Select a task:
 echo ====================================
@@ -39,7 +39,6 @@ timeout /t 3 /nobreak > nul
 ECHO.
 pause
 
-
 call "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-USB\Exe\WordMat.exe"
 ECHO.
 echo Please Wait...
@@ -47,6 +46,19 @@ timeout /t 3 /nobreak > nul
 ECHO.
 pause
 
+call "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-USB\Exe\Papercut.exe"
+ECHO.
+echo Please Wait...
+timeout /t 3 /nobreak > nul
+ECHO.
+pause
+
+call "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-USB\Exe\AppWriter.exe"
+ECHO.
+echo Please Wait...
+timeout /t 3 /nobreak > nul
+ECHO.
+pause
 
 call "c:\Users\%Username%\Desktop\Windows-Auto-Installer-Master-USB\Exe\ChromeSetup.exe"
 ECHO.

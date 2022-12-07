@@ -8,6 +8,10 @@
 
 -> You have to manuelly download WordMat and put it into the Exe folder and rename it to "WordMat"
 
+-> You have to manuelly download Papercut and put it into the Exe folder and rename it to "Papercut.exe"
+
+-> You have to manuelly download AppWriter and put it into the Exe folder and rename it to "AppWriter.exe"
+
 * Unzip on the desktop (The only way it will work for now)
 * Open the folder on the desktop 
 * Run the WAI.bat
